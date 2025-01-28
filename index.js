@@ -48,10 +48,10 @@ app.listen(port, () => {
     console.log(`Server running on port: ${port}`)
     connectDB()
 
-    // port socket real time ( nhan request tu client voi thoi gian thuc)
-    server.listen(5001, () => {
-        console.log("Socket server running on port 5001");
-    })
+    // // port socket real time ( nhan request tu client voi thoi gian thuc)
+    // server.listen(5001, () => {
+    //     console.log("Socket server running on port 5001");
+    // })
 })
 
 export { app };
